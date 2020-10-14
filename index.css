@@ -1,0 +1,97 @@
+body{
+    background-color: :whitesmoke;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: white;
+    letter-spacing: 1px;
+    position: relative;
+    
+}
+hr{
+    outline-color: green;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+nav ul{
+    display: flex;
+}
+nav a:hover{
+    background-color: yellowgreen;
+    transition: all 0.4s ease;
+}
+nav.active a{
+    background-color: yellowgreen;
+    transition: all 0.4s ease;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+}
+.container{
+    padding:10px;
+    display: flex;
+    height: 500px;
+    background-image: url("banner.jpg");
+    background-position:cover;
+    background-repeat: no-repeat;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    margin-left:50vh;
+    flex-wrap: wrap;
+}
+.hero-text{
+    top:30%;
+    right:30%;
+    text-align:left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    float: left;
+    color: yellowgreen;
+}
+.flex-folder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 10px;
+
+}
+.flex-folder>div{
+    background-color: whitesmoke;
+    margin: auto;
+    width:200px;
+    padding: 50px;
+    height: 180px;
+    font-size: 15px;
+    line-height: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color:green;
+    color:white;
+    margin: auto;
+    padding: 10px;
+}
+
+
