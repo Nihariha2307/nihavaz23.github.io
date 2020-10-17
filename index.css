@@ -1,4 +1,4 @@
-body{
+body,nav{
     background-color: whitesmoke;
     font-family:Roboto Slab,serif ;
 }
@@ -8,9 +8,10 @@ h1,h2,h3,h4{
 .header-section{
     display: flex;
     border-bottom: 2px solid #6EAA30 ;
+    background-color: white;
     }
 header .logo img{
-    width: 4rem;
+    width: 6rem;
     float:right;
     position:relative;
     left:40%;
@@ -19,7 +20,8 @@ header .logo img{
     padding:20px 10px;
     justify-content: space-evenly;
     align-items: center;
-    right:10%;
+    right:40%;
+    position:relative;
 }
 
 a{
@@ -48,6 +50,8 @@ nav ul li a{
 .hero-image{
     padding-left: 20rem;
     top: 40%;
+    margin-right:auto;
+    margin-left:auto;
     height: 20rem;
     width: 50rem;
     color:#6EAA30;
@@ -57,14 +61,14 @@ nav ul li a{
     padding-left:70px;
     position:relative;
     bottom:50px;
+    text-align:center;
 }
 .container{
     margin-top: 65px;
     background-color: white;
-    width: 70rrem;
-    margin-right: 20px;
-    margin-left: 20px;
-    left:50%;
+    align-items: center;
+    flex-wrap:wrap;
+    max-width:50px;
 }
 .flex-folder{
     display: flex;
