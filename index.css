@@ -1,19 +1,27 @@
 body{
-    background-color: :whitesmoke;
+    background-color: whitesmoke;
+    font-family:Roboto Slab,serif ;
+}
+h1,h2,h3,h4{
+    color:#6EAA30;
+}
+.header-section{
+    display: flex;
+    border-bottom: 2px solid #6EAA30 ;
+    }
+header .logo img{
+    width: 4rem;
+    float:right;
+    position:relative;
+    left:40%;
 }
 .nav{
-    display: flex;
+    padding:20px 10px;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: space-between;
-    height: 40px;
-    background-color: white;
-    letter-spacing: 1px;
-    position: relative;
-    
+    right:10%;
 }
-hr{
-    outline-color: green;
-}
+
 a{
     text-decoration: none;
 }
@@ -24,74 +32,83 @@ nav ul{
     display: flex;
 }
 nav a:hover{
-    background-color: yellowgreen;
+    background-color: #6EAA30;
     transition: all 0.4s ease;
 }
 nav.active a{
-    background-color: yellowgreen;
+    background-color:#6EAA30 ;
     transition: all 0.4s ease;
 }
 nav ul li a{
     margin: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    font-size: 15px;
+    color: #363636;
+    font-size: 20px;
     font-weight: 300;
 }
-.container{
-    padding:10px;
-    display: flex;
-    height: 500px;
-    background-image: url("banner.jpg");
-    background-position:cover;
-    background-repeat: no-repeat;
-    width: 900px;
-    align-items: center;
-    justify-content: center;
-    margin-left:50vh;
-    flex-wrap: wrap;
-}
-.hero-text{
-    top:30%;
-    right:30%;
-    text-align:left;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.hero-image{
+    padding-left: 20rem;
+    top: 40%;
+    height: 20rem;
+    width: 50rem;
+    color:#6EAA30;
     position: relative;
-    float: left;
-    color: yellowgreen;
+}
+.hero{
+    padding-left:70px;
+    position:relative;
+    bottom:50px;
+}
+.container{
+    margin-top: 65px;
+    background-color: white;
+    width: 70rrem;
+    margin-right: 20px;
+    margin-left: 20px;
+    left:50%;
 }
 .flex-folder{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 10px;
-
 }
 .flex-folder>div{
-    background-color: whitesmoke;
+    background-color: white;
     margin: auto;
-    width:200px;
-    padding: 50px;
-    height: 180px;
-    font-size: 15px;
-    line-height: 10px;
+    width:400px;
+    padding-left: 2rem;
+    height: 20rem;
+    font-size: 17px;
+    line-height: 20px;
     text-align: center;
     overflow: hidden;
 }
+button{
+    background-color: #6EAA30;
+    left:30%;
+    position:relative;
+    color:white;
+}
+.cal{
+    color:#6EAA30;
+    padding-right:500px;
+    font-size: 20px;
+}
+.para{
+    top:10px;
 
+}
 footer{
- 
+    list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    background-color:green;
+    background-color:#6EAA30;
+    font-size: 17px;
     color:white;
     margin: auto;
     padding: 10px;
+    margin-top:50px;
 }
+
 
 
