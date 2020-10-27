@@ -1,27 +1,36 @@
-body,nav{
+body{
     background-color: whitesmoke;
-    font-family:Roboto Slab,serif ;
+}
+@font-face{
+    font-family:Roboto slap ,serif ;
+    src:https://fonts.google.com/specimen/Roboto+Slab?sidebar.open=true&selection.family=Roboto+Slab:wght@700;
 }
 h1,h2,h3,h4{
     color:#6EAA30;
 }
+header{
+    background-color: white;
+    border-bottom: 2px solid #6EAA30 ;
+}
 .header-section{
     display: flex;
-    border-bottom: 2px solid #6EAA30 ;
-    background-color: white;
-    }
+    position: relative;
+    left: 10%;
+}
 header .logo img{
     width: 6rem;
     float:right;
     position:relative;
-    left:40%;
+    left:50%;
 }
 .nav{
-    padding:20px 10px;
-    justify-content: space-evenly;
+    padding:10px;
+    justify-content: space-between;
     align-items: center;
-    right:40%;
+    right:10%;
+    bottom: 20%;
     position:relative;
+    background-color: white;
 }
 
 a{
@@ -42,64 +51,97 @@ nav.active a{
     transition: all 0.4s ease;
 }
 nav ul li a{
-    margin: 30px;
+    margin: 20px;
     color: #363636;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 100px;
+    bottom: 20%;
+    left:10%;
 }
 .hero-image{
-    padding-left: 20rem;
-    top: 40%;
-    margin-right:auto;
-    margin-left:auto;
+    padding-left: 10rem;
+    padding-right:20rem;
+    top: 50%;
     height: 20rem;
     width: 50rem;
     color:#6EAA30;
     position: relative;
 }
 .hero{
-    padding-left:70px;
+    padding-left:30px;
     position:relative;
-    bottom:50px;
-    text-align:center;
+    bottom:30px;
+    text-align:left;
 }
 .container{
-    margin-top: 65px;
+    margin-top: 55px;
     background-color: white;
     align-items: center;
     flex-wrap:wrap;
-    max-width:50px;
+    margin-right: 150px;
+    margin-left:150px;
 }
 .flex-folder{
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+
 }
-.flex-folder>div{
+.News{
     background-color: white;
-    margin: auto;
-    width:400px;
-    padding-left: 2rem;
     height: 20rem;
+    width:300px;
+    margin: auto;
+    top: 10px;
+    margin-left: 150px;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding:20px;
     font-size: 17px;
     line-height: 20px;
-    text-align: center;
+    font-family:Roboto slap,serif;
     overflow: hidden;
+}
+.enrollments{
+    background-color: white;
+    height: 20rem;
+    width: 300px;
+    margin:auto;
+    margin-right: 200px;
+    margin-left: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding:20px;
+    font-size: 15px;
+    line-height: 20px;
+    font-family:Roboto slap,serif;
+    overflow: hidden;
+}
+.Calendar{
+    display:flex;
+    background-color: white;
+    width:300px;
+    height:20rem;
+    margin:auto;
+    margin-left: -170px ;
+    margin-right: 150px;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
 button{
     background-color: #6EAA30;
     left:30%;
+    top:10%;
+    width:25%;
+    height:10%;
     position:relative;
+    border: 1px solid white;
     color:white;
 }
-.cal{
-    color:#6EAA30;
-    padding-right:500px;
-    font-size: 20px;
+.text{
+    position
 }
-.para{
-    top:10px;
 
-}
 footer{
     list-style-type: none;
     display: flex;
