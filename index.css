@@ -1,7 +1,15 @@
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}*/
 body{
     background-color: whitesmoke;
     margin: auto;
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab",serif;
 }
 /* @font-face{
     font-family:Roboto slap ,serif ;
@@ -57,9 +65,9 @@ nav li:hover{
     transition: all 0.4s ease;
 } */
 nav ul li a{
-    margin-left: 20px;
+    margin-left: 30px;
     margin-right: 20px;
-    color: #363636;
+    color: #555;
     display: inline-block;
     font-size: 15px;
     font-weight: 100px;
@@ -86,18 +94,20 @@ nav ul li a{
     background-color: white;
     align-items: center;
     flex-wrap:wrap;
-    margin-right: 150px;
-    margin-left:150px;
+    margin-right: 200px;
+    margin-left:200px;
+    max-width: 60rem;
 }
-/*.flex-folder{
+.box{
+    max-width: 60rem;
+    margin: auto;
+}
+.flex-folder{
   display: flex;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-bottom: 32px;
-  margin-top: 32px;
-
-}*/
-.flex{
+  margin-top: 2rem;
+  margin :0 -1rem;
+}
+/*.flex{
     display:flex;
     flex-direction: column;
     background-color: white;
@@ -122,18 +132,19 @@ nav ul li a{
     font-size: 16px;
     font-family: "Roboto Slab", serif;
     font-weight: 700;
-}
-/*.News{
+}*/
+.container_2{
     background-color: white;
     height: 20rem;
     width:300px;
-    margin: auto;
+    margin: 20px;
     top: 10px;
-    margin-left: 150px;
-    margin-right: 20px;
+    /* margin-left: 150px;
+    margin-right: 20px; */
     margin-top: 10px;
     padding:20px;
-    font-size: 17px;
+    font-size: 18px;
+    color: #555;
     line-height: 20px;
     font-family:Roboto slap,serif;
     overflow: hidden;
@@ -148,38 +159,51 @@ nav ul li a{
     margin-top:10px;
     margin-bottom:10px;
     padding:20px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 20px;
+    color: #555;
     font-family:Roboto slap,serif;
     overflow: hidden;
 }
-.Calendar{
+#calendar{
     display:flex;
-    background-color: white;
-    width:300px;
-    height:20rem;
-    margin:auto;
-    font-size: 15px;
-    font-family: R0boto slap,serif;
-    margin-left: -170px ;
-    margin-right: 150px;
-    margin-top: 10px;
-    margin-bottom: -30px;
 }
 button{
     background-color: #6EAA30;
-    left:30%;
-    top:10%;
-    width:25%;
-    height:10%;
-    position:relative;
+    width: 70px;
+    height: 30px;
     border: 1px solid white;
     color:white;
 }
-.text{
-    position:;
-}*/
-
+.date{
+    padding-top: 60px;
+    margin-left: -70px;
+    margin-right: 10px;
+}
+.side-text{
+    padding-top: 60px;
+}
+.text1{
+    padding: 10px; 
+}
+.num{
+    color:#6EAA30;
+    padding: 18px;
+}
+.click1{
+    position: relative;
+    float: right;
+    top: 20%;
+}
+.click2{
+    position: relative;
+    float: right;
+    top: 36%;
+}
+.click3{
+    position: relative;
+    float: right;
+}
 footer{
     list-style-type: none;
     display: flex;
